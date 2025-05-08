@@ -56,7 +56,7 @@ Then open `index.html` in your browser.
 
 ## 📌 LIVE DEMO
 
-Check it out here: [https://yourusername.github.io/empower-young-minds](https://omsaidesaii.github.io/empower-young-minds) <!-- Replace with your actual GitHub Pages link after deployment -->
+Check it out here: [[https://yourusername.github.io/empower-young-minds](https://omsaidesaii.github.io/empower-young-minds](https://responsivewebsite-ml89.vercel.app/)) <!-- Replace with your actual GitHub Pages link after deployment -->
 
 ---
 
