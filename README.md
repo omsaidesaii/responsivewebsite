@@ -26,12 +26,12 @@ A visually engaging and responsive educational platform landing page built with 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/empower-young-minds.git
+   git clone https://github.com/omsaidesaii/responsivewebsite.git
    ```
 
 2. Navigate into the project directory:
    ```bash
-   cd empower-young-minds
+   cd responsivewebsite
    ```
 
 3. Open `index.html` in any modern web browser.
@@ -48,15 +48,15 @@ A visually engaging and responsive educational platform landing page built with 
 To get started with this project on your local machine:
 
 ```bash
-git clone https://github.com/yourusername/empower-young-minds.git
-cd empower-young-minds
+git clone https://github.com/omsaidesaii/responsivewebsite
+cd responsivewebsite
 ```
 
 Then open `index.html` in your browser.
 
 ## 📌 LIVE DEMO
 
-Check it out here: [https://yourusername.github.io/empower-young-minds](https://yourusername.github.io/empower-young-minds) <!-- Replace with your actual GitHub Pages link after deployment -->
+Check it out here: [https://yourusername.github.io/empower-young-minds](https://omsaidesaii.github.io/empower-young-minds) <!-- Replace with your actual GitHub Pages link after deployment -->
 
 ---
 
