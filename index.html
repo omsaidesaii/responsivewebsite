@@ -180,33 +180,36 @@
             <p class="element_subtitle">
                 Fill out the form below to sign up for our newsletter and receive updates
             </p>
-            <form class="element_form">
+            <form action="https://api.web3forms.com/submit" method="POST" class="element_form">
                 <h2>Your Interests:</h2>
+                
+                <!-- REQUIRED for Web3Forms -->
+                <input type="hidden" name="access_key" value="2bf743f3-020d-438c-8d79-1933c07c0a54">
+              
                 <ul class="element_list">
-                    <li class="element_list_item">Web Development</li>
-                    <li class="element_list_item">UI UX Design</li>
-                    <li class="element_list_item">Digital Marketing</li>
-
+                  <li class="element_list_item">Web Development</li>
+                  <li class="element_list_item">UI UX Design</li>
+                  <li class="element_list_item">Digital Marketing</li>
                 </ul>
+              
                 <div class="element_form_group">
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" placeholder="Enter username">
+                  <label for="username">Username:</label>
+                  <input type="text" id="username" name="username" placeholder="Enter username" required />
                 </div>
-
+              
                 <div class="element_form_group">
-                    <label for="course">Select Course:</label>
-                    <select id="course">
-                        <option value="">Choose a course..</option>
-                        <option value="html">HTML & CSS</option>
-                        <option value="js">Javascript</option>
-                        <option value="react">React</option>
-                    </select>
+                  <label for="course">Select Course:</label>
+                  <select id="course" name="course" required>
+                    <option value="">Choose a course..</option>
+                    <option value="html">HTML & CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="react">React</option>
+                  </select>
                 </div>
-
-                <button type="submit" class="element_button">
-                    Submit Form
-                </button>
-            </form>
+              
+                <button type="submit" class="element_button">Submit Form</button>
+              </form>
+              
         </div>
 
     </section>
